@@ -1,0 +1,73 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class MarvelCharactersSeeder extends Seeder {
+    public function run() {
+        DB::table('marvel_characters')->insert([
+            ['id' => 1, 'name' => '3-D Man', 'description' => '', 'modified' => '2014-04-29 14:18:17'],
+            ['id' => 2, 'name' => 'A-Bomb (HAS)', 'description' => 'Rick Jones has been Hulk\'s best bud since day one, but now he\'s more than a friend...he\'s a teammate! Transformed by a Gamma energy explosion, A-Bomb\'s thick, armored skin is just as strong and powerful as it is blue. And when he curls into action, he uses it like a giant bowling ball of destruction!', 'modified' => '2013-09-18 15:54:04'],
+            ['id' => 3, 'name' => 'A.I.M.', 'description' => 'AIM is a terrorist organization bent on destroying the world.', 'modified' => '2013-10-17 14:41:30'],
+            ['id' => 4, 'name' => 'Aaron Stack', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 5, 'name' => 'Abomination (Emil Blonsky)', 'description' => 'Formerly known as Emil Blonsky, a spy of Soviet Yugoslavian origin working for the KGB, the Abomination gained his powers after receiving a dose of gamma radiation similar to that which transformed Bruce Banner into the incredible Hulk.', 'modified' => '2014-06-27 19:39:07'],
+            ['id' => 6, 'name' => 'Abomination (Ultimate)', 'description' => '', 'modified' => '2012-07-10 19:11:52'],
+            ['id' => 7, 'name' => 'Absorbing Man', 'description' => '', 'modified' => '2016-05-25 12:04:23'],
+            ['id' => 8, 'name' => 'Abyss', 'description' => '', 'modified' => '2014-04-29 14:10:43'],
+            ['id' => 9, 'name' => 'Abyss (Age of Apocalypse)', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 10, 'name' => 'Adam Destine', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 11, 'name' => 'Adam Warlock', 'description' => 'Adam Warlock is an artificially created human who was born in a cocoon at a scientific complex called The Beehive.', 'modified' => '2016-05-05 15:34:56'],
+            ['id' => 12, 'name' => 'Aegis (Trey Rollins)', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 13, 'name' => 'Aero (Aero)', 'description' => '', 'modified' => '2021-08-27 17:52:34'],
+            ['id' => 14, 'name' => 'Agatha Harkness', 'description' => '', 'modified' => '2021-08-06 11:30:56'],
+            ['id' => 15, 'name' => 'Agent Brand', 'description' => '', 'modified' => '2013-10-24 13:09:30'],
+            ['id' => 16, 'name' => 'Agent X (Nijo)', 'description' => 'Originally a partner of the mind-altering assassin Black Swan, Nijo spied on Deadpool as part of the Swan\'s plan to exact revenge for Deadpool falsely taking credit for the Swan\'s assassination of the Four Winds crime family, which included Nijo\'s brother.', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 17, 'name' => 'Agent Zero', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 18, 'name' => 'Agents of Atlas', 'description' => '', 'modified' => '2016-02-03 10:25:22'],
+            ['id' => 19, 'name' => 'Aginar', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 20, 'name' => 'Air-Walker (Gabriel Lan)', 'description' => '', 'modified' => '2024-09-24 11:11:31'],
+            ['id' => 21, 'name' => 'Ajak', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 22, 'name' => 'Ajaxis', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 23, 'name' => 'Akemi', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 24, 'name' => 'Alain', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 25, 'name' => 'Albert Cleary', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 26, 'name' => 'Albion', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 27, 'name' => 'Alex Power', 'description' => '', 'modified' => '2011-10-27 09:57:58'],
+            ['id' => 28, 'name' => 'Alex Wilder', 'description' => 'Despite being the only one of the Runaways without any superhuman abilities or tech, Alex Wilder became the de facto leader of the group due to his natural leadership skills and intellect, as well as prodigy-level logic and strategy.', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 29, 'name' => 'Alexa Mendez', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 30, 'name' => 'Alexander Pierce', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 31, 'name' => 'Alice', 'description' => '', 'modified' => '2010-11-18 16:01:44'],
+            ['id' => 32, 'name' => 'Alicia Masters', 'description' => '', 'modified' => '2010-11-04 15:22:16'],
+            ['id' => 33, 'name' => 'Alpha Flight', 'description' => '', 'modified' => '2016-05-05 14:39:01'],
+            ['id' => 34, 'name' => 'Alpha Flight (Ultimate)', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 35, 'name' => 'Alvin Maker', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 36, 'name' => 'Amadeus Cho', 'description' => '', 'modified' => '2013-08-07 13:50:56'],
+            ['id' => 37, 'name' => 'Amanda Sefton', 'description' => '', 'modified' => '2014-06-26 13:02:19'],
+            ['id' => 38, 'name' => 'Amazoness', 'description' => '', 'modified' => '2010-11-08 18:15:27'],
+            ['id' => 39, 'name' => 'American Eagle (Jason Strongbow)', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 40, 'name' => 'Amiko', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 41, 'name' => 'Amora', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 42, 'name' => 'Amphibian (Earth-712)', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 43, 'name' => 'Amun', 'description' => 'Amun is a ruthless teenage assassin, employed by the Sisterhood of the Wasp to serve under the mage Vincent after Araña interrupted the ritual to initiate the Wasp\'s new chosen one.', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 44, 'name' => 'Ancient One', 'description' => '', 'modified' => '2016-08-16 15:14:52'],
+            ['id' => 45, 'name' => 'Ancient One (Ultimate)', 'description' => '', 'modified' => '2012-07-10 19:15:49'],
+            ['id' => 46, 'name' => 'Angel (Angel Salvadore)', 'description' => 'Driven out of home by her abusive step-father, fourteen-year old Angel Salvadore slept in the woods, where her mutant nature manifested itself in the form of a protective cocoon.', 'modified' => '2021-08-19 00:06:46'],
+            ['id' => 47, 'name' => 'Angel (Thomas Halloway)', 'description' => '', 'modified' => '2014-03-05 13:14:48'],
+            ['id' => 48, 'name' => 'Angel (Ultimate)', 'description' => '', 'modified' => '2014-03-05 13:15:49'],
+            ['id' => 49, 'name' => 'Angel (Warren Worthington III)', 'description' => '', 'modified' => '2016-03-07 09:41:51'],
+            ['id' => 50, 'name' => 'Angela (Aldrif Odinsdottir)', 'description' => '', 'modified' => '2014-11-17 17:45:37'],
+            ['id' => 51, 'name' => 'Anita Blake', 'description' => '', 'modified' => '2016-03-07 14:03:57'],
+            ['id' => 52, 'name' => 'Anne Marie Hoag', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 53, 'name' => 'Annihilus', 'description' => '', 'modified' => '2013-11-20 17:06:36'],
+            ['id' => 54, 'name' => 'Anole', 'description' => '', 'modified' => '2011-06-21 17:51:53'],
+            ['id' => 55, 'name' => 'Ant-Man (Eric O\'Grady)', 'description' => '', 'modified' => '2016-03-07 14:35:42'],
+            ['id' => 56, 'name' => 'Ant-Man (Hank Pym)', 'description' => '', 'modified' => '2021-08-05 15:11:25'],
+            ['id' => 57, 'name' => 'Ant-Man (Scott Lang)', 'description' => '', 'modified' => '2017-01-31 11:03:40'],
+            ['id' => 58, 'name' => 'Anthem', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+            ['id' => 59, 'name' => 'Apocalypse', 'description' => '', 'modified' => '2014-05-28 12:41:41'],
+            ['id' => 60, 'name' => 'Apocalypse (Ultimate)', 'description' => '', 'modified' => '1969-12-31 19:00:00'],
+        ]);
+    }
+}
