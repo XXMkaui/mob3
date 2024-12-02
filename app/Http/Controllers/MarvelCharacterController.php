@@ -21,7 +21,7 @@ class MarvelCharacterController extends Controller {
             return response()->json([
                 'result' => false,
                 'error' => $error->getMessage()
-            ]);
+            ], 404);
         }
 
     }
@@ -42,7 +42,7 @@ class MarvelCharacterController extends Controller {
             return response()->json([
                 'result' => false,
                 'error' => $error->getMessage()
-            ]);
+            ], 404);
         }
     }
 }
